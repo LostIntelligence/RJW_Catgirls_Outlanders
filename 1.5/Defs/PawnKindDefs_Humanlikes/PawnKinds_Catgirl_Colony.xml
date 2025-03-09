@@ -117,7 +117,7 @@
 		<initialResistanceRange>10~15</initialResistanceRange>
 		<combatPower>75</combatPower>
 		<apparelMoney>250~1000</apparelMoney>
-		<weaponMoney>250~1000</weaponMoney>
+		<weaponMoney>400~1000</weaponMoney>
 		<forceWeaponQuality>Excellent</forceWeaponQuality>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
@@ -171,8 +171,8 @@
 		</specificApparelRequirements>
 	</PawnKindDef>
 
-	<PawnKindDef ParentName="RJW_Races_Tribal_Higher_Succubus_Pawn" Name="RJW_Races_Tribal_Chief">
-		<defName>RJW_Races_Tribal_Chief</defName>
+	<PawnKindDef ParentName="LC_Catgirl_Pawn" Name="LC_Catgirl_Chief">
+		<defName>LC_Catgirl_Chief</defName>
 		<label>Catgirl Leader</label>
 		<isFighter>true</isFighter>
 		<initialWillRange>30~40</initialWillRange>
@@ -191,12 +191,14 @@
 		</forcedTraits>
 		<weaponTags>
 			<li>LongSword</li>
-			<li>SimpleGun</li>
+			<li>IndustrialGunAdvanced</li>
 		</weaponTags>
 		<apparelRequired>
 			<li>Apparel_PlateArmor</li>
-			<li>BeltDefensePop</li>
 		</apparelRequired>
+		<apparelTags>
+			<li>BeltDefensePop</li>
+		</apparelTags>
 		<skills>
 			<li>
 				<skill>Melee</skill>

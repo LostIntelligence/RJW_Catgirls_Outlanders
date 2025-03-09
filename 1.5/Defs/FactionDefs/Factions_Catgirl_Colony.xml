@@ -22,10 +22,8 @@
             <li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_Mandatory</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_Mandatory</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">
-                Nudity_Male_CoveringAnythingButGroinDisapproved</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">
-                Nudity_Female_CoveringAnythingButGroinDisapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Male_CoveringAnythingButGroinDisapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_CoveringAnythingButGroinDisapproved</li>
         </disallowedPrecepts>
         <caravanTraderKinds>
             <li>Caravan_Outlander_BulkGoods</li>
@@ -133,9 +131,7 @@
     <FactionDef ParentName="LC_Catgirl_Base">
         <defName>LC_Catgirl_BaseCivil</defName>
         <label>Peaceful Catgirl Nation</label>
-        <description>A compassionate collective of catgirls determined to break free from the
-            oppressive legacy of the baseliners who created them, striving for peace and
-            coexistence.</description>
+        <description>A compassionate collective of catgirls determined to break free from the oppressive legacy of the baseliners who created them, striving for peace and coexistence.</description>
         <disallowedMemes>
             <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
@@ -176,8 +172,7 @@
     <FactionDef ParentName="LC_Catgirl_Base">
         <defName>LC_Catgirl_BaseAlwaysHostile</defName>
         <label>Hostile Catgirl Community</label>
-        <description>A militant group of catgirls driven by hatred for the baseliners who engineered
-            their existence, seeking revenge and dominance.</description>
+        <description>A militant group of catgirls driven by hatred for the baseliners who engineered their existence, seeking revenge and dominance.</description>
         <permanentEnemy>true</permanentEnemy>
         <naturalEnemy>true</naturalEnemy>
         <requiredMemes>

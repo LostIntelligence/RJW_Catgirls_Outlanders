@@ -3,11 +3,7 @@
     <XenotypeDef Name="Outlander Catgirl">
         <defName>LC_Outlander_Catgirl</defName>
         <label>Catgirl</label>
-        <description>Catgirls - genetically engineered hybrids designed for companionship, with
-            enhanced medical knowledge and exceptional shooting skills. While their intelligence is
-            somewhat limited, their talents make them valuable in various roles. Originally created
-            in glitterworlds, they spread to the outer rim, often lost, captured, or abandoned,
-            where they’ve become useful allies in both medical and combat situations.</description>
+        <description>Catgirls - genetically engineered hybrids designed for companionship, with enhanced medical knowledge and exceptional shooting skills. While their intelligence is somewhat limited, their talents make them valuable in various roles. Originally created in glitterworlds, they spread to the outer rim, often lost, captured, or abandoned, where they’ve become useful allies in both medical and combat situations.</description>
         <iconPath>UI/Icons/Genes/Gene_TailSmooth</iconPath>
         <inheritable>true</inheritable>
         <genes>
@@ -33,7 +29,7 @@
             <li>Learning_Slow</li>
             <li>DarkVision</li>
             <li>Tail_Smooth</li>
-            <li>AptitudeStrong_Shoting</li>
+            <li>AptitudeStrong_Shooting</li>
             <li>AptitudeStrong_Melee</li>
             <li>AptitudeTerrible_Construction</li>
             <li>AptitudeTerrible_Mining</li>
@@ -41,7 +37,7 @@
             <li>AptitudeStrong_Cooking</li>
             <li>AptitudeStrong_Animals</li>
             <li>AptitudeTerrible_Crafting</li>
-            <li>AptitudeGreat_Medicine</li>
+            <li>AptitudeGreat_Medical</li>
             <li>AptitudeStrong_Social</li>
             <li>AptitudeTerrible_Intellectual</li>
             <li>rjw_genes_feline_genitalia</li>
