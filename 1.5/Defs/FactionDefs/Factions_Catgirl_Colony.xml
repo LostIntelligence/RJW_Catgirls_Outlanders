@@ -83,7 +83,7 @@
                     <LC_Catgirl_Warrior>8</LC_Catgirl_Warrior>
                     <LC_Catgirl_Sniper>1</LC_Catgirl_Sniper>
                     <LC_Catgirl_Enforcer>12</LC_Catgirl_Enforcer>
-                    <RJW_Races_Tribal_Chief>1</RJW_Races_Tribal_Chief>
+                    <LC_Catgirl_Chief>1</LC_Catgirl_Chief>
                 </options>
             </li>
             <li>
@@ -121,7 +121,7 @@
                     <LC_Catgirl_Fighter>5</LC_Catgirl_Fighter>
                     <LC_Catgirl_Warrior>15</LC_Catgirl_Warrior>
                     <LC_Catgirl_Enforcer>10</LC_Catgirl_Enforcer>
-                    <RJW_Races_Tribal_Chief>1</RJW_Races_Tribal_Chief>
+                    <LC_Catgirl_Chief>1</LC_Catgirl_Chief>
                     <LC_Catgirl_Sniper>1</LC_Catgirl_Sniper>
                 </options>
             </li>
@@ -163,8 +163,8 @@
         <configurationListOrderPriority>21</configurationListOrderPriority>
         <startingCountAtWorldCreation>1</startingCountAtWorldCreation>
         <colorSpectrum>
-            <li>(0.75, 0, 0.75)</li>
-            <li>(0.9, 0, 0.9)</li>
+            <li>(0, 0.4, 0.94)</li>
+      <li>(0.64, 0.8, 1)</li>
         </colorSpectrum>
     </FactionDef>
 
