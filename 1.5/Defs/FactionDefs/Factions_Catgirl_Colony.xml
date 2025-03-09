@@ -143,8 +143,8 @@
         <startingCountAtWorldCreation>1</startingCountAtWorldCreation>
         <factionIconPath>Settlement_Cattail_Icon</factionIconPath>
         <colorSpectrum>
-            <li>(0.9, 0, 0.1)</li>
-            <li>(1, 0, 0)</li>
+            <li>(0, 0.9, 0.1)</li>
+            <li>(0, 1, 0.5)</li>
         </colorSpectrum>
     </FactionDef>
 
