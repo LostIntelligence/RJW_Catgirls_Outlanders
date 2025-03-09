@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>[LC] Catgirl Outlanders RJW</name>
+	<author>Luca</author>
+	<modVersion>1.0.0</modVersion>
+	<packageId>lc.catgirl.rjw</packageId>
+	<description>
+		Adds a new faction using both rimworld and rjw genes
+		Catgirls with Guns instead of the mostly meele focused ones from RJW_Unleashed_Tribal
+	</description>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+		<li>
+			<packageId>rim.job.world</packageId>
+			<displayName>RimJobWorld</displayName>
+			<downloadUrl>https://gitgud.io/Ed86/rjw</downloadUrl>
+		</li>
+		<li>
+			<packageId>Vegapnk.rjw.genes</packageId>
+			<displayName>RJW Genes</displayName>
+			<downloadUrl>https://github.com/vegapnk/RJW-Genes</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>rim.job.world</li>
+		<li>Vegapnk.rjw.genes</li>
+	</loadAfter>
+</ModMetaData>

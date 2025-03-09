@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<PawnKindDef Abstract="True" Name="LC_Outlander_Catgirl_Base">
+		<defName>LC_Outlander_Catgirl_Base</defName>
+		<race>Human</race>
+		<defaultFactionType>LC_Catgirl_BaseCivil</defaultFactionType>
+		<maxGenerationAge>60</maxGenerationAge>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<invNutrition>2.55</invNutrition>
+		<invFoodDef>Pemmican</invFoodDef>
+		<canBeSapper>true</canBeSapper>
+		<apparelTags>
+			<li>IndustrialBasic</li>
+			<li>IndustrialAdvanced</li>
+		</apparelTags>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<isFighter>true</isFighter>
+		<combatEnhancingDrugsCount>1</combatEnhancingDrugsCount>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>5~15</initialResistanceRange>
+		<combatPower>25</combatPower>
+	</PawnKindDef>
+
+
+	<PawnKindDef Abstract="True" Name="LC_Catgirl_Pawn"
+		ParentName="LC_Outlander_Catgirl_Base">
+		<defName>LC_Catgirl_Pawn</defName>
+		<label>Catgirl</label>
+		<xenotypeSet>
+			<xenotypeChances>
+				<LC_Outlander_Catgirl>100</LC_Outlander_Catgirl>
+			</xenotypeChances>
+		</xenotypeSet>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>5~7</initialResistanceRange>
+		<combatPower>35</combatPower>
+		<apparelMoney>350~550</apparelMoney>
+		<weaponMoney>350~550</weaponMoney>
+		<gearHealthRange>0.6~2</gearHealthRange>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="LC_Catgirl_Pawn">
+		<defName>LC_Catgirl_Breacher</defName>
+		<label>Catgirl Breacher</label>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>5~7</initialResistanceRange>
+		<combatPower>40</combatPower>
+		<apparelMoney>250~500</apparelMoney>
+		<weaponMoney>250~500</weaponMoney>
+		<isGoodBreacher>true</isGoodBreacher>
+		<isFighter>true</isFighter>
+		<weaponTags>
+			<li>NeolithicMeleeDestructive</li>
+		</weaponTags>
+		<forceWeaponQuality>Good</forceWeaponQuality>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="LC_Catgirl_Pawn">
+		<defName>LC_Catgirl_Sniper</defName>
+		<label>Catgirl Sniper</label>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>5~7</initialResistanceRange>
+		<combatPower>50</combatPower>
+		<apparelMoney>250~500</apparelMoney>
+		<weaponMoney>250~500</weaponMoney>
+		<isGoodBreacher>true</isGoodBreacher>
+		<isFighter>true</isFighter>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>SniperRifle</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>8~16</range>
+			</li>
+		</skills>
+		<forceWeaponQuality>Good</forceWeaponQuality>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="LC_Catgirl_Pawn">
+		<defName>LC_Catgirl_Fighter</defName>
+		<label>Catgirl Fighter</label>
+		<initialWillRange>1~2</initialWillRange>
+		<initialResistanceRange>5~7</initialResistanceRange>
+		<combatPower>50</combatPower>
+		<apparelMoney>250~500</apparelMoney>
+		<weaponMoney>250~500</weaponMoney>
+		<isGoodBreacher>true</isGoodBreacher>
+		<isFighter>true</isFighter>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>IndustrialGunAdvanced</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>4~10</range>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<range>6~12</range>
+			</li>
+		</skills>
+		<forceWeaponQuality>Good</forceWeaponQuality>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="LC_Catgirl_Pawn" Name="LC_Catgirl_Warrior">
+		<defName>LC_Catgirl_Warrior</defName>
+		<label>Catgirl Warrior</label>
+		<isFighter>true</isFighter>
+		<initialWillRange>5~7</initialWillRange>
+		<initialResistanceRange>10~15</initialResistanceRange>
+		<combatPower>75</combatPower>
+		<apparelMoney>250~1000</apparelMoney>
+		<weaponMoney>250~1000</weaponMoney>
+		<forceWeaponQuality>Excellent</forceWeaponQuality>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<forcedTraits>
+			<li>Tough</li>
+		</forcedTraits>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>10~14</range>
+			</li>
+		</skills>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="LC_Catgirl_Pawn" Name="LC_Catgirl_Enforcer">
+		<defName>LC_Catgirl_Enforcer</defName>
+		<label>Catgirl Enforcer</label>
+		<initialWillRange>20~30</initialWillRange>
+		<initialResistanceRange>30~45</initialResistanceRange>
+		<combatPower>90</combatPower>
+		<isFighter>true</isFighter>
+		<apparelMoney>500~2000</apparelMoney>
+		<weaponMoney>500~2000</weaponMoney>
+		<forceWeaponQuality>Masterwork</forceWeaponQuality>
+		<itemQuality>Excellent</itemQuality>
+		<combatEnhancingDrugsChance>1</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>2</combatEnhancingDrugsCount>
+		<forcedTraits>
+			<li>Tough</li>
+			<li>Brawler</li>
+		</forcedTraits>
+		<weaponTags>
+			<li>LongSword</li>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>Apparel_ShieldBelt</li>
+		</apparelRequired>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>10~14</range>
+			</li>
+
+		</skills>
+		<specificApparelRequirements>
+			<li>
+				<stuff>Plasteel</stuff>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="RJW_Races_Tribal_Higher_Succubus_Pawn" Name="RJW_Races_Tribal_Chief">
+		<defName>RJW_Races_Tribal_Chief</defName>
+		<label>Catgirl Leader</label>
+		<isFighter>true</isFighter>
+		<initialWillRange>30~40</initialWillRange>
+		<initialResistanceRange>30~45</initialResistanceRange>
+		<combatPower>100</combatPower>
+		<factionLeader>true</factionLeader>
+		<forceWeaponQuality>Legendary</forceWeaponQuality>
+		<itemQuality>Legendary</itemQuality>
+		<combatEnhancingDrugsChance>1</combatEnhancingDrugsChance>
+		<combatEnhancingDrugsCount>3</combatEnhancingDrugsCount>
+		<apparelMoney>3500~10000</apparelMoney>
+		<weaponMoney>2500~10000</weaponMoney>
+		<forcedTraits>
+			<li>Tough</li>
+			<li>Brawler</li>
+		</forcedTraits>
+		<weaponTags>
+			<li>LongSword</li>
+			<li>SimpleGun</li>
+		</weaponTags>
+		<apparelRequired>
+			<li>Apparel_PlateArmor</li>
+			<li>BeltDefensePop</li>
+		</apparelRequired>
+		<skills>
+			<li>
+				<skill>Melee</skill>
+				<range>12~16</range>
+			</li>
+			<li>
+				<skill>Shooting</skill>
+				<range>14~18</range>
+			</li>
+		</skills>
+		<specificApparelRequirements>
+			<li>
+				<stuff>Plasteel</stuff>
+			</li>
+		</specificApparelRequirements>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="LC_Outlander_Catgirl_Base">
+		<defName>LC_Outlander_Catgirl_Settler</defName>
+		<label>Catgirl Settler</label>
+		<combatPower>25</combatPower>
+		<isFighter>false</isFighter>
+		<initialWillRange>0~1</initialWillRange>
+		<initialResistanceRange>1~2</initialResistanceRange>
+		<apparelMoney>100~500</apparelMoney>
+		<canBeSapper>true</canBeSapper>
+		<xenotypeSet>
+			<xenotypeChances>
+				<LC_Outlander_Catgirl>999</LC_Outlander_Catgirl>
+			</xenotypeChances>
+		</xenotypeSet>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="LC_Outlander_Catgirl_Base">
+		<defName>LC_Outlander_Catgirl_Trader</defName>
+		<label>Catgirl Trader</label>
+		<trader>true</trader>
+		<combatPower>30</combatPower>
+		<isFighter>false</isFighter>
+		<initialWillRange>1~5</initialWillRange>
+		<initialResistanceRange>5~10</initialResistanceRange>
+		<apparelMoney>500~1000</apparelMoney>
+		<inventoryOptions>
+			<skipChance>0.70</skipChance>
+			<subOptionsTakeAll>
+				<li>
+					<thingDef>Silver</thingDef>
+					<countRange>30~300</countRange>
+				</li>
+			</subOptionsTakeAll>
+		</inventoryOptions>
+		<xenotypeSet>
+			<xenotypeChances>
+				<LC_Outlander_Catgirl>999</LC_Outlander_Catgirl>
+			</xenotypeChances>
+		</xenotypeSet>
+		<weaponTags>
+			<li>SimpleGun</li>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+	</PawnKindDef>
+
+</Defs>
