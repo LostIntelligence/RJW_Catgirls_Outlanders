@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <FactionDef ParentName="OutlanderFactionBase" Name="LC_Catgirl_Base" Abstract="True">
-        <canSiege>false</canSiege>
+        <canSiege>true</canSiege>
         <melaninRange>0~0.35</melaninRange>
         <pawnSingular>outlander</pawnSingular>
         <pawnsPlural>outlanders</pawnsPlural>
