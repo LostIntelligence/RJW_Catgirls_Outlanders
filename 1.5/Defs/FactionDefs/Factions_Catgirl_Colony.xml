@@ -125,6 +125,34 @@
                     <LC_Catgirl_Sniper>1</LC_Catgirl_Sniper>
                 </options>
             </li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Miners</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <LC_Outlander_Catgirl_Settler>1</LC_Outlander_Catgirl_Settler>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Hunters</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <LC_Outlander_Catgirl_Settler>1</LC_Outlander_Catgirl_Settler>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Loggers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <LC_Outlander_Catgirl_Settler>1</LC_Outlander_Catgirl_Settler>
+        </options>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">
+        <kindDef>Farmers</kindDef>
+        <commonality>1</commonality>
+        <options>
+          <LC_Outlander_Catgirl_Settler>1</LC_Outlander_Catgirl_Settler>
+        </options>
+      </li>
         </pawnGroupMakers>
     </FactionDef>
 
