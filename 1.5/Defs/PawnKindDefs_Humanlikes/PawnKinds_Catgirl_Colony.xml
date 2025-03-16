@@ -5,6 +5,11 @@
 		<race>Human</race>
 		<defaultFactionType>LC_Catgirl_BaseCivil</defaultFactionType>
 		<maxGenerationAge>60</maxGenerationAge>
+		<xenotypeSet>
+			<xenotypeChances>
+				<LC_Outlander_Catgirl>999999</LC_Outlander_Catgirl>
+			</xenotypeChances>
+		</xenotypeSet>
 		<chemicalAddictionChance>0.05</chemicalAddictionChance>
 		<invNutrition>2.55</invNutrition>
 		<invFoodDef>Pemmican</invFoodDef>
@@ -30,7 +35,7 @@
 		<label>Catgirl</label>
 		<xenotypeSet>
 			<xenotypeChances>
-				<LC_Outlander_Catgirl>100</LC_Outlander_Catgirl>
+				<LC_Outlander_Catgirl>999999</LC_Outlander_Catgirl>
 			</xenotypeChances>
 		</xenotypeSet>
 		<initialWillRange>1~2</initialWillRange>
