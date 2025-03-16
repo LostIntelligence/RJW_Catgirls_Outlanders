@@ -130,6 +130,7 @@
         <commonality>1</commonality>
         <options>
           <LC_Outlander_Catgirl_Settler>1</LC_Outlander_Catgirl_Settler>
+          <LC_Catgirl_Breacher>1</LC_Catgirl_Breacher>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -137,6 +138,7 @@
         <commonality>1</commonality>
         <options>
           <LC_Outlander_Catgirl_Settler>1</LC_Outlander_Catgirl_Settler>
+          <LC_Catgirl_Breacher>1</LC_Catgirl_Breacher>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -144,6 +146,7 @@
         <commonality>1</commonality>
         <options>
           <LC_Outlander_Catgirl_Settler>1</LC_Outlander_Catgirl_Settler>
+          <LC_Catgirl_Breacher>1</LC_Catgirl_Breacher>
         </options>
       </li>
       <li MayRequire="Ludeon.RimWorld.Ideology">
@@ -151,6 +154,7 @@
         <commonality>1</commonality>
         <options>
           <LC_Outlander_Catgirl_Settler>1</LC_Outlander_Catgirl_Settler>
+          <LC_Catgirl_Breacher>1</LC_Catgirl_Breacher>
         </options>
       </li>
         </pawnGroupMakers>
