@@ -90,6 +90,7 @@
                 <kindDef>Peaceful</kindDef>
                 <options>
                     <LC_Outlander_Catgirl_Settler>10</LC_Outlander_Catgirl_Settler>
+                    <LC_Catgirl_Breacher>1</LC_Catgirl_Breacher>
                     <LC_Catgirl_Fighter>5</LC_Catgirl_Fighter>
                     <LC_Catgirl_Warrior>5</LC_Catgirl_Warrior>
                     <LC_Catgirl_Enforcer>1</LC_Catgirl_Enforcer>
@@ -111,11 +112,13 @@
                     <LC_Catgirl_Fighter>5</LC_Catgirl_Fighter>
                     <LC_Catgirl_Warrior>5</LC_Catgirl_Warrior>
                     <LC_Catgirl_Sniper>1</LC_Catgirl_Sniper>
+                    <LC_Catgirl_Breacher>1</LC_Catgirl_Breacher>
                 </guards>
             </li>
             <li>
                 <kindDef>Settlement</kindDef>
                 <options>
+                    <LC_Catgirl_Breacher>1</LC_Catgirl_Breacher>
                     <LC_Outlander_Catgirl_Settler>5</LC_Outlander_Catgirl_Settler>
                     <LC_Catgirl_Fighter>5</LC_Catgirl_Fighter>
                     <LC_Catgirl_Warrior>15</LC_Catgirl_Warrior>
