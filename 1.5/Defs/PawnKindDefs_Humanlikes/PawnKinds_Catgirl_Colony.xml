@@ -51,7 +51,7 @@
 		<label>Catgirl Breacher</label>
 		<initialWillRange>1~2</initialWillRange>
 		<initialResistanceRange>5~7</initialResistanceRange>
-		<combatPower>40</combatPower>
+		<combatPower>35</combatPower>
 		<apparelMoney>250~500</apparelMoney>
 		<weaponMoney>250~500</weaponMoney>
 		<isGoodBreacher>true</isGoodBreacher>
