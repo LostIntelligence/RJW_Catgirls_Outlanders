@@ -54,6 +54,10 @@
         <xenotypeSet>
             <xenotypeChances>
                 <LC_Outlander_Catgirl>9999</LC_Outlander_Catgirl>
+                <Hussar>0</Hussar>
+                <Dirtmole>0</Dirtmole>
+                <Genie>0</Genie>
+                <Neanderthal>0</Neanderthal>
             </xenotypeChances>
         </xenotypeSet>
         <maxPawnCostPerTotalPointsCurve>
