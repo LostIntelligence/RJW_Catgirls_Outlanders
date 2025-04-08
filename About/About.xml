@@ -26,6 +26,10 @@
 			<displayName>RJW Genes</displayName>
 			<downloadUrl>https://github.com/vegapnk/RJW-Genes</downloadUrl>
 		</li>
+		<li>
+			<packageId>lc.DominantGeneRemade</packageId>
+			<displayName>Dominant Gene Remade</displayName>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
